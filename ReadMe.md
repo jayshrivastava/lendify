@@ -1,4 +1,4 @@
-### Lendify   
+# Lendify   
 
 ## Inspiration
 
