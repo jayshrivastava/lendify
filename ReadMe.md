@@ -4,6 +4,8 @@
 
 We were inspired by companies like **Uber** and **Airbnb** who found ways to connect product owners and service providers with people who needed such products or services. We wanted to generalize this idea of lenders and borrowers of goods/services and apply it to **anything we could thing of**, not just bnbs and transportation. We also wanted to make this system self sustainable and decentralized, so we decided to use an **ethereum blockchain** and **smart contract service** to completely automate the exchange of assets and collateral in a very secure, self-validating way. 
 
+[Presentation](https://goo.gl/hoxxeY)  
+
 ## What it does
 
 We set up a demo web application where users have accounts and act as lenders or borrowers for any item or service they choose. Items are listed by lenders, and a borrower can choose to rent the item for a specified amount of time. Each account 'balance' is represented in our ethereum network as a node. 
@@ -24,7 +26,11 @@ It was hard to connect our backend to our test ethereum blockchain at first beca
 
 This was also our first time hosting our test ethereum network. We had to do a lot of research with networking and a node module called Web3 to configure it so it would work with our code hosted on AWS. 
 
-Lastly, we had problems deploying web3 with StdLib due to web3's size. To solve this, we moved the web3 node module out of our package.json and manually required it in our project. 
+Lastly, we had problems deploying web3 with StdLib due to web3's size. To solve this, we moved the web3 node module out of our package.json and manually required it in our project.    
 
-[Presentation](https://goo.gl/hoxxeY)     
-[Source Code](https://github.com/Damian-R/enghack)
+## Authors
+
+Jayant Shrivastava (https://github.com/jayshrivastava)  
+Damian Reiter (https://github.com/Damian-R)  
+Shyam Panchal (https://github.com/snpanchal)  
+Shovnik Bhattacharya 
